@@ -1,24 +1,36 @@
-# 👋 Welcome to A Product
+# 👋 Welcome to AMRIT Developer Documentation
 
 {% hint style="info" %}
-**GitBook tip:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
+A.M.R.I.T (Accessible Medical Records via Integrated technology) is a digital health platform initially developed by Piramal Swasthya Management Research Institute (PSMRI). It connects beneficiaries, health facilities & the health workforce in an integrated ecosystem through technology. AMRIT is leveraged by multiple Health and Wellness centres across states in India with services such as 104 helpline, 1097 HIV helpline and telemedicine.ns and discover the value in your product.
 {% endhint %}
 
-## Overview
+### Features
 
-Here are a couple of example overviews from products with really great docs:
+#### Health & Wellness Centre (HWC)
 
-> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
->
-> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
->
-> — From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
+Comprehensive outpatient services such as medical advice, specialist consultation, drug dispensing and laboratory facilities are available at a primary health centre.
 
-> The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.
->
-> — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
+#### Early Childhood Development (ECD)
 
-## Quick links
+Mother and child tracking system provides advice and counselling to expecting mothers and new mothers from the initial stage of pregnancy till the child is in infant age
+
+#### Helpline-1097
+
+1097 is a national AIDS helpline service providing counselling and care to beneficiaries or families suffering from AIDS
+
+#### FHIR
+
+FHIR is a standard set of rules and specifications for exchanging electronic health care data between computer systems
+
+#### Mobile Medical Units (MMU)
+
+Mobile Medical Units are specially equipped vans that provide medical advice & diagnostics in rural areas
+
+#### Helpline-104
+
+Call centre service that provides medical advice, counselling, grievance redressal and directory services
+
+> ## Quick links
 
 {% content-ref url="overview/what-we-do.md" %}
 [what-we-do.md](overview/what-we-do.md)
@@ -32,14 +44,14 @@ Here are a couple of example overviews from products with really great docs:
 
 We've put together some helpful guides for you to get setup with our product quickly and easily.
 
-{% content-ref url="fundamentals/getting-set-up/" %}
-[getting-set-up](fundamentals/getting-set-up/)
+{% content-ref url="architecture/getting-set-up/" %}
+[getting-set-up](architecture/getting-set-up/)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/getting-set-up/setting-permissions.md" %}
-[setting-permissions.md](fundamentals/getting-set-up/setting-permissions.md)
+{% content-ref url="architecture/getting-set-up/setting-permissions.md" %}
+[setting-permissions.md](architecture/getting-set-up/setting-permissions.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/getting-set-up/inviting-members.md" %}
-[inviting-members.md](fundamentals/getting-set-up/inviting-members.md)
+{% content-ref url="architecture/getting-set-up/inviting-members.md" %}
+[inviting-members.md](architecture/getting-set-up/inviting-members.md)
 {% endcontent-ref %}
