@@ -44,14 +44,14 @@ Call centre service that provides medical advice, counselling, grievance redress
 
 We've put together some helpful guides for you to get setup with our product quickly and easily.
 
-{% content-ref url="architecture/getting-set-up/" %}
-[getting-set-up](architecture/getting-set-up/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="architecture/getting-set-up/setting-permissions.md" %}
-[setting-permissions.md](architecture/getting-set-up/setting-permissions.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="architecture/getting-set-up/inviting-members.md" %}
-[inviting-members.md](architecture/getting-set-up/inviting-members.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
