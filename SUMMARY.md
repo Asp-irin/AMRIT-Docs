@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome to AMRIT Developer Documentation](README.md)
+* [👋 Introduction](README.md)
 
 ## Overview
 

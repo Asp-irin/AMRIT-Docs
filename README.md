@@ -1,7 +1,11 @@
-# 👋 Welcome to AMRIT Developer Documentation
+---
+description: Welcome to AMRIT Developer Documentation
+---
+
+# 👋 Introduction
 
 {% hint style="info" %}
-A.M.R.I.T (Accessible Medical Records via Integrated technology) is a digital health platform initially developed by Piramal Swasthya Management Research Institute (PSMRI). It connects beneficiaries, health facilities & the health workforce in an integrated ecosystem through technology. AMRIT is leveraged by multiple Health and Wellness centres across states in India with services such as 104 helpline, 1097 HIV helpline and telemedicine.ns and discover the value in your product.
+A.M.R.I.T (Accessible Medical Records vis Integrated Technology) is a digital health platform initially developed by the Piramal Swasthya Management and Research Institute (PSMRI). It connects beneficiaries, health facilities & the health workforce in an integrated ecosystem through technology. AMRIT is leveraged by multiple Health and Wellness centres across states in India with services such as 104 helpline, 1097 HIV helpline and telemedicine.
 {% endhint %}
 
 ### Features
