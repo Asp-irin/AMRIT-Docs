@@ -18,6 +18,23 @@
     <!-- Initialize Swagger UI -->
     <script>
     window.onload = function() {
+        // JSON object for title lookup
+        const apiTitles = {
+            "admin-api": "Admin API",
+            "beneficiaryid-generation-api": "Beneficiaryid Generation API",
+            "common-api": "Common API",
+            "ecd-api": "Ecd API",
+            "fhir-api": "FHIR API",
+            "helpline104-api": "Helpline 104 API",
+            "helpline1097-api": "Helpline 1097 API",
+            "hwc-api": "HWC API",
+            "identity-api": "Identity API",
+            "inventory-api": "Inventory API",
+            "mmu-api": "MMU API",
+            "scheduler-api": "Scheduler API",
+            "tm-api": "TM API"
+        };
+
         // Function to get the value of the 'spec' URL parameter
         function getParameterByName(name) {
             const url = window.location.href;
@@ -30,7 +47,12 @@
         }
 
         // Get the API file name from the 'spec' URL parameter
-        const apiFile = getParameterByName('spec') || 'default-api'; // default-api.json as fallback
+        const apiFile = getParameterByName('spec');
+
+        // Set document title based on the 'spec' parameter
+        if (apiTitles[apiFile]) {
+            document.title = apiTitles[apiFile];
+        }
 
         // Initialize Swagger UI
         SwaggerUIBundle({
