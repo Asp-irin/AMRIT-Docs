@@ -18,14 +18,29 @@
     <!-- Initialize Swagger UI -->
     <script>
     window.onload = function() {
+        // Function to get the value of the 'spec' URL parameter
+        function getParameterByName(name) {
+            const url = window.location.href;
+            const namePattern = name.replace(/[\[\]]/g, '\\$&');
+            const regex = new RegExp('[?&]' + namePattern + '(=([^&#]*)|&|#|$)');
+            const results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        // Get the API file name from the 'spec' URL parameter
+        const apiFile = getParameterByName('spec') || 'default-api'; // default-api.json as fallback
+
+        // Initialize Swagger UI
         SwaggerUIBundle({
-            url: "https://raw.githubusercontent.com/PSMRI/PSMRI/develop/docs/api-specs/common-api-spec.json",
+            url: `${apiFile}.json`,
             dom_id: '#swagger-ui',
             presets: [
                 SwaggerUIBundle.presets.apis,
                 SwaggerUIStandalonePreset
             ],
-            layout: "BaseLayout"
+            layout: "StandaloneLayout"
         });
     };
     </script>
