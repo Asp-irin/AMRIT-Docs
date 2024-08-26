@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Introduction](README.md)
+* [Introduction](README.md)
 
 ## Overview
 
@@ -15,7 +15,16 @@
 ## Developer Guide
 
 * [Codebase structure](developer-guide/codebase-structure.md)
-* [Development environment setup](developer-guide/development-environment-setup.md)
+* [Development environment setup](developer-guide/development-environment-setup/README.md)
+  * [System Requirements](developer-guide/development-environment-setup/system-requirements.md)
+  * [Software dependencies](developer-guide/development-environment-setup/software-dependencies/README.md)
+    * [Setting up for Windows](developer-guide/development-environment-setup/software-dependencies/setting-up-for-windows.md)
+    * [Setting up for Linux](developer-guide/development-environment-setup/software-dependencies/setting-up-for-linux.md)
+    * [Setting up for Mac](developer-guide/development-environment-setup/software-dependencies/setting-up-for-mac.md)
+  * [Installation Instructions](developer-guide/development-environment-setup/installation-instructions.md)
+  * [For UI repositories](developer-guide/development-environment-setup/for-ui-repositories.md)
+  * [For API repositories](developer-guide/development-environment-setup/for-api-repositories.md)
+  * [Common Issues and Troubleshooting](developer-guide/development-environment-setup/common-issues-and-troubleshooting.md)
 * [APIs and integrations](developer-guide/apis-and-integrations.md)
 
 ## Getting started
