@@ -1,2 +1,49 @@
 # For API repositories
 
+### Building From Source
+
+The API microservices are built on Java, Spring boot framework and MySQL DB.
+
+#### Pre-requisites
+
+* JDK 17 LTS
+* Spring Tool Suite 3 / Eclipse / Visual Studio / IntelliJ IDE
+* Maven (if not pre-installed with the editor)
+* Redis
+* MySQL  8.0 and MySQL Workbench
+
+#### Creating a build configuration in STS / Eclipse
+
+* You can copy `common_example.properties` to `common_local.properties` and edit the file accordingly. The file is under `src/main/environment` folder.
+* In your editor, click on Run -> Run configuration.
+* Double-click on Maven build and give a suitable name for the new configuration.
+* Populate the base directory by clicking on workspace and selecting the API module.
+* Set goals to clean install -DENV\_VAR=local(your choice of the desired environment) and click on Apply.
+* It is advisable to have a personal environment properties file under src/main/environment filling out all the placeholders to avoid repetitive manual work each time you run locally.
+* Click Run to run the build configuration.
+
+#### Creating a run configuration in STS / Eclipse
+
+* In your editor, click on Run -> Run configuration.
+* Double-click on Spring Boot App(in STS) / Java Application(in Eclipse) and give a suitable name for the new configuration.
+* Select the project and main class and click on Apply.
+* Click Run to run the configuration. Keep the Redis server open during this run.
+* Once the run is complete, load [http://localhost:8080/swagger-ui.html#!/](http://localhost:8080/swagger-ui.html#!/)
+
+#### How to Import, Build, and Run Maven Code in Visual Studio Code
+
+1. **Install Visual Studio Code**: Download and install [Visual Studio Code](https://code.visualstudio.com/) from the official website.
+2. **Install Java** **and** **Maven**.
+3. **Install Visual Studio Code Extensions**:
+   * **Java Extension Pack**: Open Visual Studio Code, go to the Extensions view by clicking on the Extensions icon in the Activity Bar, and search for "Java Extension Pack." Install it to get Java support and Maven integration.
+4. **Open the Project in Visual Studio Code**:
+   * Launch Visual Studio Code.
+   * Use the **File > Open Folder** option to open your Maven project folder.
+5. **Configure Java and Maven**:
+   * If not already configured, set up your Java Home and Maven Home in Visual Studio Code.
+   * Go to **File > Preferences > Settings**, search for "Java Home" and "Maven Home," and specify the paths to your JDK and Maven installations.
+6. **Build and Run**:
+   * To build and run your Maven project, open the integrated terminal in Visual Studio Code (**Terminal > New Terminal**).
+   * Navigate to your project directory using the `cd` command.
+   * Use the Maven command `mvn clean install` to build your project.
+   * To run your Java application, use `mvn spring-boot:run -DENV_VAR=local`. Ensure the Redis server is open during the run.

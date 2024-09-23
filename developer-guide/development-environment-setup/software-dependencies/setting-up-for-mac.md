@@ -1,2 +1,0 @@
-# Setting up for Mac
-
