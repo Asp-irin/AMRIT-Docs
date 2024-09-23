@@ -4,35 +4,26 @@ description: Welcome to AMRIT Developer Documentation
 
 # Introduction
 
-{% hint style="info" %}
-A.M.R.I.T (Accessible Medical Records vis Integrated Technology) is a digital health platform initially developed by the Piramal Swasthya Management and Research Institute (PSMRI). It connects beneficiaries, health facilities & the health workforce in an integrated ecosystem through technology. AMRIT is leveraged by multiple Health and Wellness centres across states in India with services such as 104 helpline, 1097 HIV helpline and telemedicine.
-{% endhint %}
+**Introduction**
 
-### Features
+AMRIT (Accessible Medical Records via Integrated Technologies), developed by Piramal Swasthya, is a cutting-edge digital health platform designed to transform the healthcare landscape in India. As an integral part of national initiatives like ABDM (Ayushman Bharat Digital Mission), AMRIT enables seamless access to health records, ensuring better care delivery through data-driven insights. Our platform connects beneficiaries, healthcare facilities, and frontline health workers in a unified, technology-driven ecosystem, aiming to improve healthcare outcomes and service efficiency across the country.
 
-#### Health & Wellness Centre (HWC)
+#### **What We Do**
 
-Comprehensive outpatient services such as medical advice, specialist consultation, drug dispensing and laboratory facilities are available at a primary health centre.
+At AMRIT, we empower the Indian public health system by digitizing healthcare delivery, focusing on primary care, telemedicine, and integrated health services. Our platform supports the creation of ABHA (Ayushman Bharat Health Account) IDs, enabling secure, consent-based access to patients' medical histories across diverse healthcare systems. By ensuring a robust digital infrastructure, AMRIT bridges the gap between healthcare providers and patients, facilitating continuity of care and expanding access to comprehensive health data.
 
-#### Early Childhood Development (ECD)
+With a focus on both preventive and curative healthcare, we enhance service delivery efficiency, promote frontline worker empowerment, and strengthen the integration of national health programs. Our impact spans 16 states, with over 26 projects and 46 health facilities, managing more than 2 crore health records and benefitting millions of individuals through our outreach programs.
 
-Mother and child tracking system provides advice and counselling to expecting mothers and new mothers from the initial stage of pregnancy till the child is in infant age
+#### **Features**
 
-#### Helpline-1097
+* **Health & Wellness Centre (HWC)**: Offering comprehensive outpatient services, including medical advice, specialist consultations, drug dispensing, and laboratory testing, HWCs function as primary healthcare hubs within the community.
+* **Early Childhood Development (ECD)**: A mother and child tracking system providing continuous advice, counselling, and support from pregnancy through infancy, ensuring better maternal and child health outcomes.
+* **Helpline 1097**: A national AIDS helpline that provides counselling, care, and support services to individuals and families affected by HIV/AIDS.
+* **Mobile Medical Units (MMU)**: Specially equipped mobile vans delivering essential medical services and diagnostics to underserved rural populations, ensuring healthcare access in remote areas.
+* **Helpline 104**: A medical helpline offering advice, counselling, grievance redressal, and directory services, enhancing public health outreach and support.
+* **FHIR (Fast Healthcare Interoperability Resources)**: AMRIT leverages FHIR, a globally recognized standard for exchanging healthcare data, ensuring interoperability between systems for seamless electronic health record management.
 
-1097 is a national AIDS helpline service providing counselling and care to beneficiaries or families suffering from AIDS
-
-#### FHIR
-
-FHIR is a standard set of rules and specifications for exchanging electronic health care data between computer systems
-
-#### Mobile Medical Units (MMU)
-
-Mobile Medical Units are specially equipped vans that provide medical advice & diagnostics in rural areas
-
-#### Helpline-104
-
-Call centre service that provides medical advice, counselling, grievance redressal and directory services
+By integrating these innovative features, AMRIT is not only bridging the healthcare access gap but also driving the future of digital health in India.
 
 > ## Quick links
 
@@ -48,14 +39,14 @@ Call centre service that provides medical advice, counselling, grievance redress
 
 We've put together some helpful guides for you to get setup with our product quickly and easily.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="architecture/system-architecture-overview.md" %}
+[system-architecture-overview.md](architecture/system-architecture-overview.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="architecture/api-guide.md" %}
+[api-guide.md](architecture/api-guide.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="developer-guide/development-environment-setup.md" %}
+[development-environment-setup.md](developer-guide/development-environment-setup.md)
 {% endcontent-ref %}
