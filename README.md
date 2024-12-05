@@ -25,15 +25,15 @@ With a focus on both preventive and curative healthcare, we enhance service deli
 
 By integrating these innovative features, AMRIT is not only bridging the healthcare access gap but also driving the future of digital health in India.
 
-> ## Quick links
+## Quick links
 
-{% content-ref url="overview/what-we-do.md" %}
-[what-we-do.md](overview/what-we-do.md)
-{% endcontent-ref %}
+Learn more about AMRIT from our [**website**](https://amrit.piramalswasthya.org/)**.**
 
-{% content-ref url="overview/our-features.md" %}
-[our-features.md](overview/our-features.md)
-{% endcontent-ref %}
+Get started with our open-source code [**repositories**](https://github.com/PSMRI/AMRIT).
+
+Find user stories, upcoming features, and bugs actively being worked on in our [**JIRA**](https://support.piramalfoundation.org/jira/projects/AMM/issues).
+
+Access detailed product documentation and learn more about AMRIT’s features on [**Confluence**](https://pmp.piramalswasthya.org/confluence/display/AMRIT).
 
 ## Get Started
 

@@ -1,4 +1,4 @@
-# 📪 Making a post
+# Database schema
 
 ## Step 1 - Start journalling
 

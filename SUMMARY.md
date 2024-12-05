@@ -2,11 +2,6 @@
 
 * [Introduction](README.md)
 
-## Overview
-
-* [💡 What we do](overview/what-we-do.md)
-* [✨ Our Features](overview/our-features.md)
-
 ## Architecture
 
 * [System architecture overview](architecture/system-architecture-overview.md)
@@ -31,13 +26,13 @@
 
 ## Deployment
 
-* [🎨 CI/CD pipelines](deployment/ci-cd-pipelines.md)
-* [🖥️ On-premises deployment](deployment/on-premises-deployment.md)
+* [CI/CD pipelines](deployment/ci-cd-pipelines.md)
+* [On-premises deployment](deployment/on-premises-deployment.md)
 
 ## Data Management
 
-* [📪 Database schema](data-management/database-schema.md)
-* [📎 Data privacy and security](data-management/data-privacy-and-security.md)
+* [Database schema](data-management/database-schema.md)
+* [Data privacy and security](data-management/data-privacy-and-security.md)
 * [Data import/export](data-management/data-import-export.md)
 * [Reporting](data-management/reporting.md)
 
