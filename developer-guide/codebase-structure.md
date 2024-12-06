@@ -10,7 +10,7 @@ The AMRIT Platform codebase is organized into **three primary categories** of re
 
 1. **UI Repositories**: These repositories host the Angular-based frontend modules for various healthcare services.
 2. **API Repositories**: These repositories provide Spring Boot-based microservices exposing REST APIs to power the UI modules and mobile applications.
-3. **Mobile Application Repositories**: Android apps built with Kotlin, designed for field-level workers (FLWs) and health professionals.
+3. **Mobile Application Repositories**: Android apps built with Kotlin, designed for front-line workers (FLWs) and health professionals.
 
 Each repository focuses on a specific domain (e.g., Telemedicine, Inventory, Health and Wellness Centers) and follows **microservices architecture** principles, ensuring modularity, scalability, and ease of maintenance.
 
