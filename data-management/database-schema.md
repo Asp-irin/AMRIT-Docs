@@ -1,13 +1,98 @@
 # Database schema
 
-## Step 1 - Start journalling
+Here is the list of existing databases in the AMRIT platform.
 
-Donec sed odio dui. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.
+1\. **db\_identity** -> Stores all beneficiary data.
 
-![](https://images.unsplash.com/photo-1522881451255-f59ad836fdfb?crop=entropy\&cs=tinysrgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw0fHx3cml0ZXxlbnwwfHx8fDE2NjA1ODc5Nzk\&ixlib=rb-1.2.1\&q=80)
+2\. **db\_1097\_identity** -> Stores 1097 helpline beneficiary data.
 
-## Step 2 - Create Post
+3\. db\_iemr-> Stores all master & transaction data of 104, 1097, TM, MMU, HWC, ECD service lines.
 
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+4\. db\_reporting -> Stores All AMRIT service lines reporting related data.
 
-![](https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?crop=entropy\&cs=tinysrgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw2fHxwb3N0fGVufDB8fHx8MTY2MDU4ODAzMg\&ixlib=rb-1.2.1\&q=80)
+&#x20;![](../.gitbook/assets/image.png)
+
+## Setting up DB Schema
+
+The **AMRIT DB Service** simplifies the initial setup of database schemas across all AMRIT modules by automating the creation of tables, relationships, and seed data. It ensures consistency and reduces manual effort, making the platform ready for use in various environments. The service leverages Flyway migrations for version control and compatibility. Explore the code and contribute via the [GitHub repository](https://github.com/PSMRI/Amrit-DB/).
+
+***
+
+## Setting up a Dummy Database
+
+Download a pre-configured dummy database to quickly restore and simulate the AMRIT platform's functionality for testing or local development. The zip file includes SQL scripts to populate data for different modules.\
+
+
+{% file src="../.gitbook/assets/Amrit_MastersData.zip" %}
+
+Dummy username and passwords\
+
+
+| Module                              | Username                      | password    |
+| ----------------------------------- | ----------------------------- | ----------- |
+| 1097                                | 1097User                      | Test@123    |
+| ECD Supervisor                      | ECDSupervisor2, ecdsupervisor | Test@123    |
+| ECD Associate                       | ECDAssociate                  | Test@123    |
+| ECD ANM                             | ECDANM                        | Test@123    |
+| ECD MO                              | ECDMedicalOfficer             | Test@123    |
+| ECD quality Supervisor              | ECDQualitySupervisor          | Test@123    |
+| ECD Quality Auditor                 | ECDQualityAuditor             | Test@123    |
+| 104HAO                              | 104hao                        | Test@123    |
+| 104MO                               | 104mo                         | Test@123    |
+| 104 supervisor                      | 104Supervisor                 | Test@123    |
+| 104SIO(service improvement officer) | 104SIO                        | Test@123    |
+| 104CO(CounsellingOfficer)           | 104psmri,104co                | Test@123    |
+| 104 Surveyor                        | 104Surveyor                   | Test@123    |
+| TM(Telemedicine)                    | TMUser                        | Test@123    |
+| Admin(ECD, 104)                     | 104ECDAdmin                   | P@ssword@07 |
+| Admin(TM,HWC)                       | HWCTMAdmin                    | Test@123    |
+| Admin(1097)                         | 1097Admin                     | Test@123    |
+| Admin(MMU)                          | MMUAdmin                      | Test@123    |
+| HWC                                 | HWCUser                       | Test@123    |
+| MMU                                 | MMUUser                       | Test@123    |
+
+## AMRIT DB Architecture
+
+Here is the AMRIT DB Architecture diagram.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+## DB Tables
+
+### Beneficiary Registration Tables
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+### 104 Tables
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+### MMU & TM Tables
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+### 1097 Tables
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+### Inventory Tables
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+### HWC Screening Tables
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+&#x20;
