@@ -544,31 +544,31 @@ Based on the Beneficiary registration we can import the event data in DHIS2 base
 `TIME_TO_SEC(TIMEDIFF(t.CallEndTime, t.CallTime)) AS CallDurationInSeconds,`\
 `CONCAT( UPPER(SUBSTRING(trim(concat(trim(rmu.UserName),"-",t.CallReceivedUserID)), 1, 1)), LOWER(SUBSTRING(trim(concat(trim(rmu.UserName),"-",t.CallReceivedUserID)), 2))) As Received_username,`\
 `if(emu.UserName IS NULL , 'Not Assigned-99999',CONCAT( UPPER(SUBSTRING(trim(concat(trim(emu.UserName),"-",t.CallEndUserID)), 1, 1)), LOWER(SUBSTRING(trim(concat(trim(emu.UserName),"-",t.CallEndUserID)), 2))) ) As End_username,`\
-t.ReceivedAgentID AS AgentID,\
-t.ReceivedRoleName,\
-t.IsCalledEarlier,\
-t.IsOutbound,\
-mct.CallGroupType,\
-mct.CallType,\
-dt.Call\_Status,\
-dt.SessionID,\
-dt.Agent\_Disposition\_Category,\
-dt.Agent\_Disposition,\
-dt.DID\_Number,\
-dt.Queue\_time,\
-dt.Wrapup\_time,\
-dt.Wait\_Time,\
-dt.Actual\_Talk\_Time,\
-dt.Channel,\
-dt.Wrapped\_By\
-FROM\
-db\_iemr.t\_detailedcallreport dt     left join\
-db\_iemr.t\_bencall\_vtbl t  on (t.callid=dt.SessionID and t.ReceivedAgentID=AgentID)\
-LEFT JOIN db\_iemr.m\_calltype mct ON mct.CallTypeID = t.CallTypeID\
-LEFT JOIN db\_iemr.m\_user\_vtbl rmu on rmu.UserID=t.CallReceivedUserID\
-left join db\_iemr.m\_user\_vtbl emu on emu.UserID=t.CallEndUserID\
-WHERE t.BeneficiaryRegID IS NOT NULL AND t.IsOutbound IS NOT TRUE AND t.calltypeid IS NOT NULL\
-AND (dt.Call\_Start\_Time between '2024-09-01 00:00:00' and '2024-09-17 23:59:59')&#x20;
+`t.ReceivedAgentID AS AgentID,`\
+`t.ReceivedRoleName,`\
+`t.IsCalledEarlier,`\
+`t.IsOutbound,`\
+`mct.CallGroupType,`\
+`mct.CallType,`\
+`dt.Call_Status,`\
+`dt.SessionID,`\
+`dt.Agent_Disposition_Category,`\
+`dt.Agent_Disposition,`\
+`dt.DID_Number,`\
+`dt.Queue_time,`\
+`dt.Wrapup_time,`\
+`dt.Wait_Time,`\
+`dt.Actual_Talk_Time,`\
+`dt.Channel,`\
+`dt.Wrapped_By`\
+`FROM`\
+`db_iemr.t_detailedcallreport dt     left join`\
+`db_iemr.t_bencall_vtbl t  on (t.callid=dt.SessionID and t.ReceivedAgentID=AgentID)`\
+`LEFT JOIN db_iemr.m_calltype mct ON mct.CallTypeID = t.CallTypeID`\
+`LEFT JOIN db_iemr.m_user_vtbl rmu on rmu.UserID=t.CallReceivedUserID`\
+`left join db_iemr.m_user_vtbl emu on emu.UserID=t.CallEndUserID`\
+`WHERE t.BeneficiaryRegID IS NOT NULL AND t.IsOutbound IS NOT TRUE AND t.calltypeid IS NOT NULL`\
+`AND (dt.Call_Start_Time between '2024-09-01 00:00:00' and '2024-09-17 23:59:59')`&#x20;
 
 **Anonymization:**
 
@@ -601,8 +601,7 @@ Example:
 `` `sourceOfInfo`,`servicePointId`,`areaId`,`zoneId`,`phcId`,`Remarks`,`familyid`,`HeadofFamily_RelationID`, ``\
 `` `HeadofFamily_Relation`,`Others`,`Deleted`,`Processed`,`CreatedBy`,`CreatedDate`,`Reserved`,`ReservedFor`, ``\
 `` `ReservedOn`,`ReservedById`,`ModifiedBy`,`LastModDate`,`VanSerialNo`,`VanID`,`VehicalNo`,`ParkingPlaceID`, ``\
-`` `SexualOrientationID`,`SexualOrientationType`,`IsHIVPositive`,`HIVStatus`,`SyncedBy`,`SyncedDate`, ``
-
+`` `SexualOrientationID`,`SexualOrientationType`,`IsHIVPositive`,`HIVStatus`,`SyncedBy`,`SyncedDate`, ``\
 `` `ReservedForChange`,`MonthlyFamilyIncome`  from `db_identity`.`i_beneficiarydetails`; ``
 
 &#x20;
