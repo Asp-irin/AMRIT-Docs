@@ -33,7 +33,7 @@
 
 * [Database schema](data-management/database-schema.md)
 * [Data privacy and security](data-management/data-privacy-and-security.md)
-* [Data import/export](data-management/data-import-export.md)
+* [Data export](data-management/data-export.md)
 * [Reporting](data-management/reporting.md)
   * [Integrating DHIS2 with AMRIT](data-management/reporting/integrating-dhis2-with-amrit.md)
   * [Example Python Scripts](data-management/reporting/example-python-scripts.md)
