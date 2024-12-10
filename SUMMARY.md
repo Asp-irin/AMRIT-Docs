@@ -6,6 +6,7 @@
 
 * [System architecture overview](architecture/system-architecture-overview.md)
 * [API Guide](architecture/api-guide.md)
+* [Integrations](architecture/integrations.md)
 
 ## Developer Guide
 
@@ -17,18 +18,13 @@
     * [For UI repositories](developer-guide/development-environment-setup/installation-instructions/for-ui-repositories.md)
     * [For API repositories](developer-guide/development-environment-setup/installation-instructions/for-api-repositories.md)
   * [Common Issues and Troubleshooting](developer-guide/development-environment-setup/common-issues-and-troubleshooting.md)
-* [APIs and integrations](developer-guide/apis-and-integrations.md)
-
-## Getting started
-
-* [Installation guide](getting-started/installation-guide.md)
-* [Configuration and setup](getting-started/configuration-and-setup.md)
 
 ## Deployment
 
+* [Installation guide](deployment/installation-guide.md)
 * [CI/CD pipelines](deployment/ci-cd-pipelines.md)
-* [On-premises deployment](deployment/on-premises-deployment.md)
 * [Observability](deployment/observability.md)
+* [Configuration and setup](deployment/configuration-and-setup.md)
 
 ## Data Management
 
