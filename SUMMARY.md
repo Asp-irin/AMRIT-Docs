@@ -28,6 +28,7 @@
 
 * [CI/CD pipelines](deployment/ci-cd-pipelines.md)
 * [On-premises deployment](deployment/on-premises-deployment.md)
+* [Observability](deployment/observability.md)
 
 ## Data Management
 
