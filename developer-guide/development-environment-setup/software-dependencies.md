@@ -82,7 +82,7 @@ AMRIT platform requires a database, we use MySQL, a relational database.&#x20;
 
 * **MySQL**:
   * **Version**: MySQL 8+.
-  * **Installation Guide**: [MySQL Downloads](https://dev.mysql.com/downloads/installer/).
+  * Download Mysql from [here](https://dev.mysql.com/downloads/installer/)
   * After installation, use MySQL Workbench or the command line to manage your database.
 
 Configure your Spring Boot application with the required database connection properties in the `application.properties` file.
@@ -92,20 +92,20 @@ Configure your Spring Boot application with the required database connection pro
 To improve performance, we use caching solutions.
 
 * **Redis** is a popular in-memory data store used for caching in Spring Boot apps.
-  * **Installation Guide**: [Redis Downloads](https://redis.io/download/).
+  * Download Redis from [here](https://redis.io/docs/latest/get-started/)
   * Redis is integrated into Spring Boot via the `spring-data-redis` library.
 
 #### **9. Other Tools:**
 
 * **Git**: Version control system.
-  * **Installation Guide**: [Git Downloads](https://git-scm.com/downloads).
+  * Download Git from [here](https://git-scm.com/downloads)
   *   After installing, verify by running:
 
       ```bash
       git --version
       ```
 * **NVM (Node Version Manager)**: To manage multiple Node.js versions if needed.
-  * **Installation Guide**: [NVM for Windows](https://github.com/coreybutler/nvm-windows/releases).
+  * Download node from [here](https://nodejs.org/en/download/package-manager)
 * **Browser**: The latest version of Google Chrome, Firefox, or Microsoft Edge is recommended for testing and debugging Angular apps.
 
 #### **10. Additional Recommendations:**
