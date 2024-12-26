@@ -8,7 +8,7 @@ Data privacy and security are foundational to maintaining the confidentiality, i
 
 A VPN secures data by creating an encrypted tunnel between a user’s device and a secure network. This ensures that sensitive information transmitted over the internet remains protected from interception.
 
-#### AMRIT infrastructure hosted on PSMRI's on-premise servers uses SOPHOS VPN services that adhere to industry standards such as AES-256 encryption to ensure the confidentiality and integrity of data transmitted over public networks.
+AMRIT infrastructure hosted on PSMRI's on-premise servers uses SOPHOS VPN services that adhere to industry standards such as AES-256 encryption to ensure the confidentiality and integrity of data transmitted over public networks.
 
 {% file src="../.gitbook/assets/sophos (1).png" %}
 
