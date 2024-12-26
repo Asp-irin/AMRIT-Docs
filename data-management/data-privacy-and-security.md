@@ -16,7 +16,7 @@ AMRIT infrastructure hosted on PSMRI's on-premise servers uses SOPHOS VPN servic
 
 Data replication ensures the availability and integrity of data by creating copies of critical information across multiple locations.
 
-#### AMRIT  implement continuous replication for all critical systems and databases, ensuring that data is replicated and accessible at all times by maintaining replication servers.
+AMRIT  implements continuous replication for all critical systems and databases, ensuring that data is replicated and accessible at all times by maintaining replication servers.
 
 #### 3. HTTPS Everywhere
 
