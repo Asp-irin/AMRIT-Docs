@@ -6,9 +6,9 @@ Here is the list of existing databases in the AMRIT platform.
 
 2\. **db\_1097\_identity** -> Stores 1097 helpline beneficiary data.
 
-3\. db\_iemr-> Stores all master & transaction data of 104, 1097, TM, MMU, HWC, ECD service lines.
+3\. **db\_iemr**-> Stores all master & transaction data of 104, 1097, TM, MMU, HWC, ECD service lines.
 
-4\. db\_reporting -> Stores All AMRIT service lines reporting related data.
+4\. **db\_reporting** -> Stores All AMRIT service lines reporting related data.
 
 &#x20;![](../.gitbook/assets/image.png)
 
@@ -22,7 +22,7 @@ The **AMRIT DB Service** simplifies the initial setup of database schemas across
 
 Download a pre-configured dummy database to quickly restore and simulate the AMRIT platform's functionality for testing or local development. The zip file includes SQL scripts to populate data for different modules.
 
-{% file src="../.gitbook/assets/Amrit_MastersData (2).zip" %}
+{% file src="../.gitbook/assets/AmritMasterData.zip" %}
 
 Dummy username and passwords\
 
