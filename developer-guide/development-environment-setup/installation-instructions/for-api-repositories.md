@@ -18,7 +18,14 @@ The API microservices are built on Java, Spring boot framework and MySQL DB.
 * In your editor, click on Run -> Run configuration.
 * Double-click on Maven build and give a suitable name for the new configuration.
 * Populate the base directory by clicking on workspace and selecting the API module.
-* Set goals to clean install -DENV\_VAR=local(your choice of the desired environment) and click on Apply.
+* Set goals to clean install -DENV\_VAR=local(your choice of the desired environment) and 
+  then 
+  Go to **Environment** tab and click **Add**.  Set
+     ```
+     Name : ENV_VAR 
+     Value: local
+     ```
+   click on Apply.
 * It is advisable to have a personal environment properties file under src/main/environment filling out all the placeholders to avoid repetitive manual work each time you run locally.
 * Click Run to run the build configuration.
 
