@@ -20,14 +20,14 @@
    *   Copy the environment configuration file:
 
        ```bash
-       cp src/environments/environment.ts src/environments/environment.local.ts
+       cp src/environments/environment.local.ts src/environments/environment.ts
        ```
-   * Edit the endpoints, ports, and IPs in `environment.local.ts` as per your local running services.
+   * Edit the endpoints, ports, and IPs in `environment.ts` as per your local running services.
 5. **Run the Project:**
    *   Once the Node modules are installed successfully, run the project using:
 
        ```bash
-       ng serve
+       npm start
        ```
 
 By default, your application will be available at `http://localhost:4200/`. You can access it in your browser.
