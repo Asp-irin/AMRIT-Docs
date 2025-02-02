@@ -17,6 +17,8 @@ To build and run your Maven project, open the CLI.
    * Navigate to your project directory using the `cd` command.
    * Use the Maven command `mvn clean install` to build your project.
    * To run your Java application, use `mvn spring-boot:run -DENV_VAR=local`. Ensure the Redis server is open during the run.
+   * Once the run is complete, load `http://localhost:{PORT}/swagger-ui.html#!/`, where PORT is defined in the [AMRIT documentation](https://github.com/PSMRI/AMRIT/blob/main/README.md).
+
 
 
 #### Creating a build configuration in STS / Eclipse
@@ -42,7 +44,7 @@ To build and run your Maven project, open the CLI.
 * Double-click on Spring Boot App(in STS) / Java Application(in Eclipse) and give a suitable name for the new configuration.
 * Select the project and main class and click on Apply.
 * Click Run to run the configuration. Keep the Redis server open during this run.
-* Once the run is complete, load [http://localhost:8080/swagger-ui.html#!/](http://localhost:8080/swagger-ui.html#!/)
+* Once the run is complete, load `http://localhost:{PORT}/swagger-ui.html#!/`, where PORT is defined in the [AMRIT documentation](https://github.com/PSMRI/AMRIT/blob/main/README.md).
 
 #### How to Import, Build, and Run Maven Code in Visual Studio Code
 
@@ -61,3 +63,4 @@ To build and run your Maven project, open the CLI.
    * Navigate to your project directory using the `cd` command.
    * Use the Maven command `mvn clean install` to build your project.
    * To run your Java application, use `mvn spring-boot:run -DENV_VAR=local`. Ensure the Redis server is open during the run.
+   * Once the run is complete, load `http://localhost:{PORT}/swagger-ui.html#!/`, where PORT is defined in the [AMRIT documentation](https://github.com/PSMRI/AMRIT/blob/main/README.md).
