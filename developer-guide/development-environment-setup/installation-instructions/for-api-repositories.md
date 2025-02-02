@@ -12,6 +12,13 @@ The API microservices are built on Java, Spring boot framework and MySQL DB.
 * Redis
 * MySQL  8.0 and MySQL Workbench
 
+### Through CLI
+To build and run your Maven project, open the CLI.
+   * Navigate to your project directory using the `cd` command.
+   * Use the Maven command `mvn clean install` to build your project.
+   * To run your Java application, use `mvn spring-boot:run -DENV_VAR=local`. Ensure the Redis server is open during the run.
+
+
 #### Creating a build configuration in STS / Eclipse
 
 * You can copy `common_example.properties` to `common_local.properties` and edit the file accordingly. The file is under `src/main/environment` folder.
